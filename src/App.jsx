@@ -8,9 +8,9 @@ import preguntas from "./Components/questions";
 function App() {
   return (
     <div className="App">
-      <h1>English flashcards game</h1>
-      <h3>Let's test your knowledge in verb tenses</h3>
-      <h3>You'll have to guess the correct verb tense for each question</h3>
+      <h1>Flashcards de la estrategia </h1>
+      <h3>Pongamos a pruebas tus conocimientos en la estrategia</h3>
+      <h3>Tendrás que adivinar la respuesta correcta para cada pregunta</h3>
       <Juego></Juego>
     </div>  
   );

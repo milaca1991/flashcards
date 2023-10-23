@@ -2,20 +2,80 @@ import React from "react";
 
 const preguntas = [
   {
-    question: "Click me to know the rules",  answer: "Do click to the card to know the correct answer. Press button next to see the next question",  difficulty: "",  id: 0},
-  { question: "I play soccer with my friends every Saturday. ", answer: "Present simple", difficulty: "Low", id: 1 , picture:"./img/img1.jpg"},
+    question: "Haz clic en mí para conocer las reglas", 
+     answer:     <div>
+     * Haga clic en la tarjeta para descubrir la respuesta correcta<br />
+     * Pulsa el botón siguiente para ver la siguiente pregunta<br />
+     * Cada pregunta tiene un nivel de dificultad
+   </div>,  
+     difficulty: "",  
+     id: 0},
+  { question: "Electroequipos se fundó en el año... ", 
+  answer: "29 de Dic 1999",
+   difficulty: "Medio", 
+   id: 1 , 
+   picture:"./img/img7.jpg"},
 
-  { question: "I traveled to France last summer. ", answer: "Past simple", difficulty: "medium", id: 2 ,picture:"./img/img2.jpg"},
+  { question: "A que año está establecido cumplir nuesta visión ", 
+  answer: "Al 2028 seremos reconocidos....",
+   difficulty: "Facil", 
+   id: 2 ,
+   picture:"./img/img8.jpg"},
 
-  { question: "I will go to the gym tomorrow morning.", answer: "Future simple", difficulty: "High", id: 3 ,picture:"./img/img3.jpg"},
+  { question: "Estamos comprometidos a proporcionar soluciones integrales a través del.....", 
+  answer: "Diseño, estructuración e implementación de proyectos especializados", 
+  difficulty: "Dificil",
+   id: 3 ,
+   picture:"./img/img9.jpg"},
 
-  { question: "I will have finished my homework by 9pm tonight. ", answer: "Future perfect", difficulty: "Low", id: 4 , picture:"./img/img4.jpg"},
+  { question: "Menciona dos (2) de nuestros siete principios (7):", 
+  answer: <div>
+  * Cultura de servicio<br />
+  * Somos innovadores<br />
+  * Trabajamos en equipo<br />
+  * Actuamos con pasión<br />
+  *Orientados al logro de objetivos<br />
+  *Equidad y trato justo<br />
+  *Somos colaboradores integrales<br />
+  *Dispuestos al cambio<br />
+  *Confiamos en nuestro equipo<br />
+</div>, 
+  difficulty: "Medio", 
+  id: 4 ,
+   picture:"./img/img12.png"},
 
-  { question: "I had already eaten breakfast before I went to work.", answer: "Past perfect", difficulty: "medium", id: 5 , picture:"./img/img5.jpg"},
+  { question: "Menciona uno de nuestros tres (3) valores:", 
+  answer: <div>
+  * Orgullo<br />
+  * Confianza<br />
+  * Compañerismo<br />
+ 
+</div>, 
+  difficulty: "Facil", 
+  id: 5 , 
+  picture:"./img/Confianza.jpeg"},
 
-  { question: "He will have saved enough money to buy a car by the end of the year.", answer: "Future perfect", difficulty: "High", id: 6 , picture:"./img/img6.jpg" },
+  { question: <div>
+    Responde falso o verdadero<br />
+    Una de nuestras megas es:<br />
+    Brindar un excelente servicio reflejado en una atención al cliente excepcional<br />
+   
+  </div>,  
+  answer: "Verdadero", 
+  difficulty: "Facil",
+   id: 6 ,
+   picture:"./img/img10.png" },
 
-
+   { question: <div>
+    Menciona el objetivo estratégico al que le apunta tu nuevo rol:
+  </div>,  
+  answer:<div>
+    OBJETIVO 4. <br></br> 
+    Generar demanda para aumentar oportunidades de negocio
+</div>,    
+  difficulty: "Facil",
+   id: 6 ,
+   picture:"./img/obj.PNG" },
 
 ];
 

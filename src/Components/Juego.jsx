@@ -39,20 +39,20 @@ function flipCard() {
     let color;
 
     switch (listaPreguntas.difficulty) {
-      case "Low":
-        color = "#d3cce3";
+      case "Facil":
+        color = "#FFECAF";
         break;
 
-      case "medium":
-        color = "#F3F9A7";
+      case "Medio":
+        color = "#E6FFFD";
         break;
 
-      case "High":
-        color = "#FF416C";
+      case "Dificil":
+        color = "#FFBFBF";
         break;
 
       default:
-        color = "#D3CBB8";
+        color = "#F3FDE8";
     }
 
 
@@ -71,22 +71,22 @@ function flipCard() {
   return (
     <div>
       <h3>
-        Number of cards: ({index + 1} of {preguntas.length})
+        Numero de tarjetas: ({index + 1} of {preguntas.length})
       </h3>
 
 
       {changeColor(listaPreguntas)} 
 
 
-      <h3>Difficulty: {listaPreguntas.difficulty}</h3>
+      <h3>Dificultad: {listaPreguntas.difficulty}</h3>
    
       <button className="button-27" onClick={backClick}>
         {" "}
-        back
+        Atras
       </button>
       <button className="button-27" onClick={handleClick}>
         {" "}
-        Next
+        Siguiente
       </button>
     </div>
   );

@@ -43,7 +43,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #FF8080;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -76,12 +76,15 @@ button:focus-visible {
   color: #213547;
   font-weight: 500;
   min-height: 250px;
-  display: flex;;
+  display:flex;
   justify-content: center;
   margin: 0%;
   transition: .15s;
   flex-direction: column;
   box-shadow: 0 0 5px 2px #0000004d;
+  max-width:none;
+  padding: 2%;
+
 
 }
 
@@ -92,11 +95,11 @@ button:focus-visible {
 
 .button-27 {
   appearance: none;
-  background-color: #000000;
-  border: 2px solid #1A1A1A;
+  background-color: #A7D397;
+  border: 2px solid #A7D397;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #213547;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
