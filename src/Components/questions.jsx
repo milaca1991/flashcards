@@ -70,8 +70,8 @@ const preguntas = [
     Menciona el objetivo estratégico al que le apunta tu nuevo rol:
   </div>,  
   answer:<div>
-    OBJETIVO 4. <br></br> 
-    Generar demanda para aumentar oportunidades de negocio
+    OBJETIVO 1. <br></br> 
+    Generar más y mejores ventas
 </div>,    
   difficulty: "Facil",
    id: 6 ,
