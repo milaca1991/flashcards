@@ -67,7 +67,7 @@ const preguntas = [
    picture:"./img/img10.png" },
 
    { question: <div>
-    Menciona el o los objetivos estratégicos al que le apunta tu nuevo rol:
+    Menciona el/los objetivos estratégicos al que le apunta tu nuevo rol:
   </div>,  
   answer:<div>
     OBJETIVO 11 . <br></br> 
