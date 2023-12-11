@@ -67,12 +67,15 @@ const preguntas = [
    picture:"./img/img10.png" },
 
    { question: <div>
-    Menciona el objetivo estratégico al que le apunta tu nuevo rol:
+    Menciona el o los objetivos estratégicos al que le apunta tu nuevo rol:
   </div>,  
   answer:<div>
-    OBJETIVO 1. <br></br> 
-    Generar más y mejores ventas
-</div>,    
+    OBJETIVO 11 . <br></br> 
+    Promover el desarrollo profesional y personal de los integrantes del equipo
+    OBJETIVO 12 . <br></br> 
+    Consolidar una cultura organizacional fuerte alineada a la estrategia coroporativa
+    
+  </div>,    
   difficulty: "Facil",
    id: 6 ,
    picture:"./img/obj.PNG" },
