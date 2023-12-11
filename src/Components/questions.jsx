@@ -70,14 +70,23 @@ const preguntas = [
     Menciona el/los objetivos estratégicos al que le apunta tu nuevo rol:
   </div>,  
   answer:<div>
-    OBJETIVO 11 . <br></br> 
-    Promover el desarrollo profesional y personal de los integrantes del equipo
-    OBJETIVO 12 . <br></br> 
-    Consolidar una cultura organizacional fuerte alineada a la estrategia coroporativa
+    OBJETIVO 11 . 
+    Promover el desarrollo profesional y personal de los integrantes del equipo <br></br> 
+    OBJETIVO 12 . 
+    Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa <br></br>
     
   </div>,    
   difficulty: "Facil",
-   id: 6 ,
+   id: 7 ,
+   picture:"./img/obj.PNG" },
+     { question: <div>
+    Menciona el software que se maneja actualmente para el seguimiento a la estrategia
+  </div>,  
+  answer:<div>Kawak
+    
+  </div>,    
+  difficulty: "Facil",
+   id: 8 ,
    picture:"./img/obj.PNG" },
 
 ];
