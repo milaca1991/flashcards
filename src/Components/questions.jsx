@@ -70,11 +70,8 @@ const preguntas = [
     Menciona el/los objetivos estratégicos al que le apunta tu nuevo rol:
   </div>,  
   answer:<div>
-    OBJETIVO 11 . 
-    Promover el desarrollo profesional y personal de los integrantes del equipo <br></br> 
-    OBJETIVO 12 . 
-    Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa <br></br>
-    
+    OBJETIVO 1. 
+    Generar más y mejores ventas <br></br> 
   </div>,    
   difficulty: "Facil",
    id: 7 ,
